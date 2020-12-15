@@ -1,0 +1,50 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-size: 100%;
+    color: white;
+}
+
+.time {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 65px;
+}
+.welcome {
+    
+    text-align:center;
+    font-size: 45px;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px; 
+}
+
+@media (max-width: 500px) {
+    body {
+    background-size: 100%;
+    width: 499px;
+    background: no-repeat;}
+
+   .time {
+    font-size: 45px;
+   }
+   .welcome {
+    font-size: 35px
+   }
+}
+ @media (max-width: 768px) {
+    body {
+        background-size: 100%;
+        width: 768px;
+        background: no-repeat;}
+    
+       .time {
+        font-size: 65px;
+       }
+       .welcome {
+        font-size: 45px
+       }
+ }
+
